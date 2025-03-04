@@ -21,7 +21,7 @@ const ServicesManager = () => {
   const [currentServiceId, setCurrentServiceId] = useState(null);
   const [tempImages, setTempImages] = useState([]);
 
-  const API_URL = "http://localhost:9000/api/services";
+  const API_URL = "https://saloon-e7dp.vercel.app/api/services";
 
   useEffect(() => {
     fetchServices();
